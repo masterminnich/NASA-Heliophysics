@@ -19,22 +19,10 @@
 		<a href="https://science.gsfc.nasa.gov/heliophysics/" class="footercontent">Heliophysics Division</a>
 	</div>
 	<div class="toe">
-		<div class="t1"><p class="t1">Web Developer: Joseph Minnich  </p><p class="a" id="t1">(email)</p><p class="t1C" style="display: none;">   jm2511a@student.american.edu</p></div>
-		<div class="t2"><p class="t2">Web Curator: Silvinia Guidoni  </p><p class="a" id="t2">(email)</p><p class="t2C" style="display: none;">   silvina.e.guidoni@nasa.gov</p></div> 
+		<div class="t1"><p class="t1">Web Developer: Joseph Minnich  </p><p class="a" id="t1" onclick="document.getElementById('t1C').style.display='inline';">(email)</p><p id="t1C" style="display: none;">&#9;jm2511a@student.american.edu</p></div>
+		<div class="t2"><p class="t2">Web Curator: Silvinia Guidoni  </p><p class="a" id="t2" onclick="document.getElementById('t2C').style.display='inline';">(email)</p><p id="t2C" style="display: none;">&#9;silvina.e.guidoni@nasa.gov</p></div> 
 		<!--
 		<div class="t3"><p class="t3">Responsible NASA Official: Douglas Rabin  </p><p class="a" id="t3">(email)</p><p class="t3C" style="display: none;">   Douglas.M.Rabin@nasa.gov</p></div> 
 		-->
 	</div>
 </div>
-
-<script>/*Click to show email address*/
-$('#t1').click(function() {
-    $('.t1C').show();
-});
-$('#t2').click(function() {
-    $('.t2C').show();
-});
-$('#t3').click(function() {
-    $('.t3C').show();
-});
-</script>
