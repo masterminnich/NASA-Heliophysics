@@ -1,0 +1,164 @@
+/*Header*/
+#header {
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	padding-bottom: 2em;
+	margin-bottom: 3em;
+}
+
+#header li {
+	display: inline;
+	float: left;
+	line-height: 10vmin;
+	height: 10vmin;
+}
+
+.vl {
+	border-left: 1px solid white;
+	height: 10vmin;
+	float: left;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.header img{
+	width: 10vw;
+	height: auto;
+	float: left;
+}
+
+li.spacer{
+	border-left: 0px solid black;
+	height: 5vmin;
+	float: left;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+}
+
+li.tab{
+	margin-left: auto;
+	margin-right: auto;
+	width: 12%;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.ddtitle a{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ddtitle, .dd a, .ddtitle a:hover p{
+	color: white;
+	text-decoration: none; 
+	font-size: 2.5vmin;
+}
+
+.ddcontent {
+	background-color: rgb(16, 64, 143); /*Dropdown Background Color*/
+	margin-top:-1em;
+	z-index: 10;
+	position: relative;
+}
+
+.tab:hover {
+	background-color: rgb(16,64,143); /*Header Background Color*/
+}
+
+.ddcontent a{
+	display: block;
+	line-height: 10vmin;
+}
+
+.ddcontent a:hover{
+	background-color: rgb(16, 41, 81); /*Dropdown Hover Background Color*/
+}
+
+.dd:hover .ddcontent{
+	display: block !important;
+	border-top: 1px solid white;
+}
+
+body{
+	background-color: black;
+	background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");
+	background-repeat: repeat-x;
+}
+
+/*Footer*/
+.footer p {
+	color: white;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer hr{
+    border:0;
+    margin:0;
+    width:75%;
+    height:2px;
+    background:white;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.container {
+	width: 20%;
+	text-align: center;
+}
+
+.footercontent, .footercontent {
+	display: block;
+}
+
+.footercontent {
+	text-align: left;
+	padding-left: 4vw;
+}
+
+.toe {
+	margin-top: 7vmin;
+	margin-bottom: 7vmin;
+}
+
+.toe p {
+	margin-bottom: 0;
+}
+
+.toe {
+	display: inline;
+}
+
+.t1 {
+	margin-top: 2em;
+}
+
+.t1, .t2, .t3 {
+	float: clear;
+	display: block;
+}
+
+.t1C p, .t2C p, .t3C p {
+	color: blue;
+}
+
+.t1 p, .t2 p, .t3 p {
+	display: inline;
+}
+
+p.a:hover {
+	text-decoration: underline;
+}
+
+
+/*Mobile
+@media only screen and (max-width: 600px) {
+}
+*/

@@ -1,4 +1,17 @@
 /*Header*/
+iframe{
+	width: 100%;
+	border: 0;
+}
+
+iframe#head {
+	height:22vmax;
+}
+
+iframe#foot {
+	height:18vmax;
+}
+
 #header {
 	width: 100%;
 	font-family: 'Titillium Web', sans-serif;
@@ -9,13 +22,13 @@
 #header li {
 	display: inline;
 	float: left;
-	line-height: 10vmin;
-	height: 10vmin;
+	line-height: 2.5vmax;
+	height: 4vmax;
 }
 
 .vl {
 	border-left: 1px solid white;
-	height: 10vmin;
+	height: 4vmax;
 	float: left;
 	margin-left: 2vw;
 	margin-right: 2vw;
@@ -29,7 +42,7 @@
 
 li.spacer{
 	border-left: 0px solid black;
-	height: 5vmin;
+	height: 4vmax;
 	float: left;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
@@ -51,12 +64,14 @@ li.tab{
 .ddtitle, .dd a, .ddtitle a:hover p{
 	color: white;
 	text-decoration: none; 
-	font-size: 2.5vmin;
+	font-size: 1vmax;
 }
 
 .ddcontent {
 	background-color: rgb(16, 64, 143); /*Dropdown Background Color*/
-	margin-top: 0;
+	margin-top:.5em;
+	z-index: 10;
+	position: relative;
 }
 
 .tab:hover {
@@ -65,7 +80,7 @@ li.tab{
 
 .ddcontent a{
 	display: block;
-	line-height: 10vmin;
+	line-height: 4vmax;
 }
 
 .ddcontent a:hover{
@@ -77,10 +92,9 @@ li.tab{
 	border-top: 1px solid white;
 }
 
-body{
+body {
 	background-color: black;
-	background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");
-	background-repeat: repeat-x;
+	/*background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");background-repeat: repeat-x;*/
 }
 
 /*Footer*/
@@ -105,11 +119,21 @@ body{
 	width: 100%;
 	text-align: center;
 	margin-top: 2em;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.1vmax; 
 }
 
 .container {
 	width: 20%;
 	text-align: center;
+}
+
+.container a,p {
+	margin-bottom: 3px;
+}
+
+p.footertitles {
+	margin-bottom: 10px;
 }
 
 .footercontent, .footercontent {
@@ -122,14 +146,43 @@ body{
 }
 
 .toe {
-	margin-top: 7vmin;
-	margin-bottom: 7vmin;
+	margin-top: 2vmax;
+	margin-bottom: 2vmax;
 }
 
 .toe p {
 	margin-bottom: 0;
 }
 
+.toe {
+	display: inline;
+}
+
+.t1 {
+	margin-top: 2em;
+}
+
+.t1, .t2, .t3 {
+	float: clear;
+	display: block;
+	margin-bottom: .5vmax;
+}
+
+.t1C p, .t2C p, .t3C p {
+	color: blue;
+}
+
+.t1 p, .t2 p, .t3 p {
+	display: inline;
+}
+
+p.a:hover {
+	text-decoration: underline;
+}
+
+.footer a:visited{
+	color: blue;
+}
 
 
 /*Mobile

@@ -9,9 +9,14 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 70%;
   position: relative;
   margin: auto;
+}
+
+.slideshow-container img{
+	z-index: -1;
+	position: relative;
 }
 
 /* Next & previous buttons */
@@ -28,6 +33,7 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  z-index: 2;
 }
 
 /* Position the "next button" to the right */
@@ -99,6 +105,14 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-
-
 /*Slideshow CSS End*/
+
+/*Positions caption under picture and dots*/
+br {
+	line-height: 15px;
+}
+
+.text {
+	position: relative;
+	padding-top: 3vh;
+}
