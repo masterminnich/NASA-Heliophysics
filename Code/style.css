@@ -4,7 +4,7 @@ iframe{
 	border: 0;
 }
 
-iframe#head {
+iframe#head{
 	height:22vmax;
 }
 
@@ -182,6 +182,12 @@ p.a:hover {
 
 .footer a:visited{
 	color: blue;
+}
+
+
+/*Common*/
+p {
+	font-family: 'Titillium Web', sans-serif;
 }
 
 
