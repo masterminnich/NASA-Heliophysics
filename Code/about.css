@@ -1,0 +1,12 @@
+.whitebackdrop {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.whitebackdrop p {
+  padding: 2em 2em 2em 2em;
+	color: black !important;
+	font-family: 'Titillium Web', sans-serif;
+}

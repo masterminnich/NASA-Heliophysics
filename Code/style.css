@@ -6,6 +6,7 @@ iframe{
 
 iframe#head{
 	height:22vmax;
+	background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");background-repeat: repeat-x;
 }
 
 iframe#foot {
@@ -69,7 +70,6 @@ li.tab{
 
 .ddcontent {
 	background-color: rgb(16, 64, 143); /*Dropdown Background Color*/
-	margin-top:.5em;
 	z-index: 10;
 	position: relative;
 }
@@ -94,7 +94,6 @@ li.tab{
 
 body {
 	background-color: black;
-	/*background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");background-repeat: repeat-x;*/
 }
 
 /*Footer*/
