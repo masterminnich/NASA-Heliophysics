@@ -30,6 +30,7 @@ document.querySelector('#content').addEventListener("load", ev => { /*Resizes if
     setIframeHeight(document.getElementById('content'));
 	var iframes = document.querySelectorAll("iframe");
 	iframes[1].height = iframes[1].contentWindow.document.body.scrollHeight+20;
+	iframes[0].height = iframes[1].contentWindow.document.body.scrollHeight;
 });
 </script>
 </html>

@@ -13,6 +13,10 @@ iframe#foot {
 	height:18vmax;
 }
 
+iframe#content{
+	padding-bottom: 4em;
+}
+
 #header {
 	width: 100%;
 	font-family: 'Titillium Web', sans-serif;
@@ -187,6 +191,19 @@ p.a:hover {
 /*Common*/
 p {
 	font-family: 'Titillium Web', sans-serif;
+}
+
+p.ctitle {
+	font-size: 2em;
+	color: white;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+p.csub {
+	color: white;
+	margin-bottom: 1em;
+	text-align: center;
 }
 
 

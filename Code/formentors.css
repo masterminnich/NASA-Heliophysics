@@ -1,3 +1,4 @@
+/*For Mentors CSS*/
 .formentors{
 	width: 80%;
 	margin-left: auto;
@@ -13,4 +14,22 @@ p.title{
 p.body{
 	margin-bottom: 4em;
 	font-size: 1.1em;
+}
+
+
+/*For Interns CSS*/
+.forinterns{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 8em;
+}
+
+.forinterns a{
+	display: block;
+	margin-bottom: .5em;
+}
+
+.forinterns a:visited{
+	color: blue;
 }
