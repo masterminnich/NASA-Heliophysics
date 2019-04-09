@@ -28,6 +28,8 @@ p.body{
 .forinterns a{
 	display: block;
 	margin-bottom: .5em;
+	color: #4364fb;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .forinterns a:visited{

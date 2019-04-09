@@ -116,3 +116,7 @@ br {
 	position: relative;
 	padding-top: 3vh;
 }
+
+.slideshowContainer {
+	margin-bottom: 4em;
+}

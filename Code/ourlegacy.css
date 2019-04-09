@@ -6,3 +6,40 @@ img#us, img#abroad{
 .maps {
 	text-align: center;
 }
+
+td{
+	width: 20%;
+	text-align: center;
+	border: 1px solid black;
+}
+
+td.title1 p {
+	color: black;
+	margin: 0px;
+    padding: .4em 0 .4em 0;
+}
+
+td.row{
+	padding: .6em 0 .5em 0;
+}
+
+td.row p {
+	color: black;
+	margin: 0px;
+}
+
+td.row a {
+	
+}
+
+td.title1{
+	font-size: 1.7em;
+	font-weight: 600;
+}
+
+table{
+	width: 90%;
+	margin: 1.5em auto 2em auto;
+	background-color: white;
+	border-collapse: collapse;
+}

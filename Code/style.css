@@ -172,7 +172,7 @@ p.footertitles {
 }
 
 .t1C p, .t2C p, .t3C p {
-	color: blue;
+	color: #4364fb;
 }
 
 .t1 p, .t2 p, .t3 p {
@@ -184,7 +184,7 @@ p.a:hover {
 }
 
 .footer a:visited{
-	color: blue;
+	color: #4364fb;
 }
 
 
