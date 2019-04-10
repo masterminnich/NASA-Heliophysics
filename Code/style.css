@@ -207,7 +207,30 @@ p.csub {
 }
 
 
-/*Mobile
-@media only screen and (max-width: 600px) {
+/*Home Page*/
+#programStart{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: white;
+	border-collapse: collapse;
 }
-*/
+
+#programStart p{
+	color: white;
+	font-weight: 300;
+}
+
+#programStartp{
+	font-size: 1.3em;
+	text-align: center;
+	padding-bottom: .4em;
+}
+
+.programStart p{
+	color: white;
+}
+
+tr.t p{
+	font-weight: 700 !important;
+}
