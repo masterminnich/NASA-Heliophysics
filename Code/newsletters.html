@@ -8,10 +8,33 @@
 	<title>SESI - Newsletters</title> <!--Change Name-->
 </head>
 <body onload="parent.document.title=document.title">
+	<div class="buttons">
+		<a id="b2018" href="javascript:setIframeHeightb2018();">2018</a>
+		<a id="b20182" href="javascript:setIframeHeightb20182();">2018 something here</a>
+		<a id="b2017" href="javascript:setIframeHeightb2017();">2017</a>
+	</div>
 	<div class="pdf">
 		<object data="Newsletters/2017_SESI_Newsletter.pdf" id="pdfdisplay" type="application/pdf" width="100%" height="100%" internalinstanceid="12">
   			<p style="color:white">Download the PDF <a href="Newsletters/2017_SESI_Newsletter.pdf">here!</a></p>
 		</object>
 	</div>
 </body>
+<script>
+var pdf = document.getElementById("pdfdisplay");
+var b2018 = document.getElementById("b2018");
+var b20182 = document.getElementById("b20182");
+var b2017 = document.getElementById("b2017");
+	
+function setIframeHeightb2017() {
+	pdf.setAttribute("data", "Newsletters/2017_SESI_Newsletter.pdf"); 
+};
+	
+function setIframeHeightb2018() {
+	pdf.setAttribute("data", "Newsletters/2018_SESI_Newsletter.pdf"); 
+};
+	
+function setIframeHeightb20182() {
+	pdf.setAttribute("data", "Newsletters/HSD_Summer_student_program_2018.pdf"); 
+};
+</script>
 </html>

@@ -18,6 +18,10 @@ p.body{
 
 
 /*For Interns CSS*/
+.slideshow-container{
+	max-width: 80% !important;
+}
+
 .forinterns{
 	width: 80%;
 	margin-left: auto;

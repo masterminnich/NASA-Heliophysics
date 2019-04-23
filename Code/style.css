@@ -187,6 +187,18 @@ p.a:hover {
 	color: #4364fb;
 }
 
+#nasa_footer{
+	width: 10%;
+	height: auto;
+	margin-right: 5%;
+}
+
+#nsf_footer{
+	width: 9%;
+	height: auto;
+	margin-left: 5%;
+}
+
 
 /*Common*/
 p {
