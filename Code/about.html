@@ -5,6 +5,33 @@
 	<link href="style.css" rel="stylesheet" />
 	<link href="about.css" rel="stylesheet" />
 	<title>SESI - About</title>
+	
+	<script type="text/javascript">
+  		var imageURLs = [
+       		"../images/gallery/2018.jpg"
+			, "../images/gallery/2009.jpg"
+     		, "../images/gallery/2010.jpg"
+			, "../images/gallery/2011.jpg"
+			, "../images/gallery/2012.jpg"
+			, "../images/gallery/2016.jpg"
+			, "../images/gallery/2017.jpg"
+			, "../images/forinterns/CCMC_4.JPG"
+			, "../images/forinterns/Lectures_1-2.jpg"
+			, "../images/forinterns/Orientation_5.JPG"
+			, "../images/forinterns/Poster_4.JPG"
+			, "../images/forinterns/Poster_session_2.JPG"
+			, "../images/forinterns/Poster_session_6.JPG"
+			, "../images/forinterns/Poster_1.JPG"
+			, "../images/forinterns/Hike_2.jpg"
+  		];
+  	function getImageTag() {
+    	var img = '<img class=\"rimg\" style=\"margin: auto auto; width: 25%;\" src=\"';
+    	var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    	img += imageURLs[randomIndex];
+    	img += '\" alt=\"Random Image\"/>';
+    	return img;
+  	}
+	</script>
 </head>
 <body onload="parent.document.title=document.title"><div class="whitebackdrop">
 	<p style="color: white; text-align: center;"> 
@@ -14,6 +41,14 @@
 		SESI provides qualified students with exciting research opportunities and the chance to work with mentors (the scientists, engineers, and researchers of GSFC) in the areas of solar and heliospheric physics, data analysis and computational modeling, building space hardware, and many other scientific fields.<br><br>
 		In addition to research, students attend weekly lectures from senior scientists, tour Goddard's facilities, and can participate in optional weekend activities in the Washington, D.C. area such as park/trail hiking and museum tours. 
 	</p>
+	</div>
+	
+	<div class="rimgs">
+	<script type="text/javascript">
+  		document.write(getImageTag());
+		document.write(getImageTag());
+		document.write(getImageTag());
+	</script>
 	</div>
 </body>
 </html>

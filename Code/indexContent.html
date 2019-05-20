@@ -4,8 +4,47 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<link href="style.css" rel="stylesheet" />
 	<title>SESI</title>
+	
+	<script type="text/javascript">
+  		var imageURLs = [
+       		"../images/gallery/2018.jpg"
+			, "../images/gallery/2009.jpg"
+     		, "../images/gallery/2010.jpg"
+			, "../images/gallery/2011.jpg"
+			, "../images/gallery/2012.jpg"
+			, "../images/gallery/2016.jpg"
+			, "../images/gallery/2017.jpg"
+			, "../images/forinterns/CCMC_4.JPG"
+			, "../images/forinterns/Lectures_1-2.jpg"
+			, "../images/forinterns/Orientation_5.JPG"
+			, "../images/forinterns/Poster_4.JPG"
+			, "../images/forinterns/Poster_session_2.JPG"
+			, "../images/forinterns/Poster_session_6.JPG"
+			, "../images/forinterns/Poster_1.JPG"
+			, "../images/forinterns/Hike_2.jpg"
+  		];
+  	function getImageTag() {
+    	var img = '<img class=\"rimg\" style=\"margin: auto auto; width: 25%;\" src=\"';
+		var list = [];
+    	var randomIndex = Math.floor(Math.random() * imageURLs.length);
+		if (list.includes(randomIndex) == true){
+			var randomIndex = Math.floor(Math.random() * imageURLs.length);
+			if (list.includes(randomIndex) == true){
+				var randomIndex = Math.floor(Math.random() * imageURLs.length);
+			}
+		}
+		list.push(randomIndex);
+    	img += imageURLs[randomIndex];
+    	img += '\" alt=\"Random Image\"/>';
+    	return img;
+  	}
+	</script>	
 </head>
 <body onload="parent.document.title=document.title">
+	<p id="headline1">The Scientific and Engineering Student Internship (S.E.S.I.) Program at NASA Goddard Space Flight Center (Greenbelt, MD)<br>Heliophysics Science Division</p>
+
+	<p id="headline2">A multi-decade program dedicated to training the next generation of scientists and engineers</p>
+	
 	<div class="programStart">
 	<p id="programStartp">When does the program start if I am accepted?</p>
 	<table id="programStart">
@@ -35,14 +74,14 @@
 		</tr>
 	</table>
 	</div>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
-	<h5 style="color: white;text-align: center;font-size: 3em;">Under Construction</h5>
+	
+	<div class="rimgs">
+	<script type="text/javascript">
+  		document.write(getImageTag());
+		document.write(getImageTag());
+		document.write(getImageTag());
+	</script>
+	</div>
+	
 </body>
 </html>

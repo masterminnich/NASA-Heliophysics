@@ -13,7 +13,7 @@
 		<div class="mySlides fade">
   			<div class="numbertext">(1 / 9) - 2018 SESI Summer Interns</div>
   			<img src="../images/gallery/2018.jpg" style="width:100%">
-  			<div class="text">2018 Caption</div>
+  			<div class="text"></div>
 		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">(2 / 9) - 2017 SESI Summer Interns</div>
@@ -70,7 +70,8 @@
 		<span class="dot" onclick="currentSlide(8)"></span> 
 		<span class="dot" onclick="currentSlide(9)"></span> 
 	</div>
-		
+	</div>	
+	</body>	
 	<!--script for slideshow from -->
 	<script>
 		var slideIndex = 1;
@@ -96,8 +97,20 @@
 		slides[slideIndex-1].style.display = "block";  
 		dots[slideIndex-1].className += " active";
 		}
-	</script>
 		
-	</div>
-</body>
+		function revolve() { //This loop changes the current slide automatically
+			if (slideIndex == 9){
+				slideIndex = 1;
+			} else {
+				slideIndex++;
+			}
+			showSlides(slideIndex);
+		}
+		
+		var autoPlay = setInterval(revolve, 3000); //Rate of automatic transitions
+		
+		function killAutoPlay() {
+  			clearInterval(autoPlay);
+		} 
+	</script>
 </html>
