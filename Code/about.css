@@ -8,7 +8,16 @@
 .whitebackdrop p {
     padding: 2em 2em 2em 2em;
 	color: black !important;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	font-size: 1.18em;
+	display: block;
+}
+
+#t {
+	padding-bottom: 0;
+	margin-bottom: -1em;
+	font-weight: 600;
+	font-size: 1.35em;
 }
 

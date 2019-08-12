@@ -7,6 +7,10 @@ img#us, img#abroad{
 	text-align: center;
 }
 
+p.csub {
+	padding-bottom: 1.5em;
+}
+
 td{
 	width: 20%;
 	text-align: center;
